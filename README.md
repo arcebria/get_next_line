@@ -28,6 +28,7 @@ devolver una nueva línea cada vez que se llama, mientras se mantiene el control
 La correcta utilización de malloc y free fue esencial para el éxito del proyecto.
 
 - **Gestión de Archivos con Descriptores**
+
 Este proyecto también me permitió trabajar con **descriptores de archivo**. Aprendí a utilizar los descriptores para 
 interactuar con los archivos y cómo gestionar las llamadas a read() de manera eficaz, asegurando que se lea 
 correctamente hasta el final del archivo o hasta el final de una línea.
