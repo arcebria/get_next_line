@@ -1,46 +1,42 @@
-**Proyecto get_next_line**
+# 🚀 Proyecto **get_next_line** 🎉
 
-El **proyecto get_next_line** es un reto en 42 que consiste en implementar una función en C que lea una línea de texto 
-desde un archivo o desde la entrada estándar, devolviendo cada línea de forma sucesiva cuando se le invoque. 
-El objetivo de este proyecto es aprender a trabajar con archivos, manejar el búfer de lectura y gestionar la memoria 
-de manera eficiente.
+¡Bienvenido al reto de **get_next_line** de 42!  
+Esta función en C te permite leer una línea de texto 📄 desde un archivo o la entrada estándar, devolviendo cada línea sucesivamente.  
+El objetivo es aprender a trabajar con archivos, manejar búferes y gestionar memoria de forma eficiente. 🧠💻
 
-**Lo que aprendí realizando el proyecto**
+---
 
-Durante este proyecto, adquirí conocimientos clave relacionados con:
+## ✨ **¿Qué aprendí realizando el proyecto?**
 
-- **Lectura de Archivos**
+### 📂 **Lectura de Archivos**
+Aprendí a usar la función `read()` para leer datos de archivos y gestionar el búfer de lectura para manejar líneas de texto eficientemente.
 
-El proyecto me permitió entender en profundidad cómo funciona la **lectura de archivos** en C. Aprendí a usar la función 
-read() para leer datos de un archivo, y a gestionar correctamente el búfer de lectura para manejar las líneas de 
-texto de manera eficiente.
+### 🧩 **Manejo de Búferes**
+Implementé un sistema que almacena los caracteres leídos y los procesa incrementalmente para devolver una línea completa en cada llamada.  
+¡Ahora entiendo cómo interactúan los buffers con el sistema de entrada/salida en C! 🔄
 
-- **Manejo de Búferes**
+### 🧠 **Gestión de Memoria**
+La correcta utilización de `malloc` y `free` fue esencial para evitar fugas de memoria.  
+¡Ahora soy más consciente de la importancia de la memoria dinámica! 🗃️
 
-Uno de los principales desafíos de este proyecto fue **manejar el búfer de lectura**. Implementé un sistema que almacena
-los caracteres leídos y los procesa de forma incremental para poder devolver una línea completa en cada llamada a la 
-función. Este enfoque me ayudó a comprender cómo interactúan los buffers con los sistemas de entrada/salida en C.
+### 🗃️ **Gestión de Archivos con Descriptores**
+Aprendí a utilizar descriptores de archivo para interactuar con archivos y gestionar las llamadas a `read()` de manera eficaz.  
+¡Nada se me escapa! 🔍
 
-- **Gestión de Memoria**
+### ⚡ **Optimización y Rendimiento**
+Me enfoqué en optimizar el rendimiento para minimizar el uso de memoria y mejorar la eficiencia de lectura.  
+¡La lectura incremental y el almacenamiento dinámico fueron clave! 🚦
 
-Aprendí a **gestionar correctamente la memoria dinámica** para almacenar las líneas leídas. La función debe ser capaz de 
-devolver una nueva línea cada vez que se llama, mientras se mantiene el control de la memoria sin causar fugas. 
-La correcta utilización de malloc y free fue esencial para el éxito del proyecto.
+---
 
-- **Gestión de Archivos con Descriptores**
+## 🎯 **Resultado Final**
 
-Este proyecto también me permitió trabajar con **descriptores de archivo**. Aprendí a utilizar los descriptores para 
-interactuar con los archivos y cómo gestionar las llamadas a read() de manera eficaz, asegurando que se lea 
-correctamente hasta el final del archivo o hasta el final de una línea.
+El resultado es una función **get_next_line** capaz de leer archivos de forma eficiente y devolver una línea completa cada vez que se llama.  
+Este proyecto consolidó mis conocimientos sobre lectura de archivos, gestión de búferes y memoria dinámica.  
+¡Listo para futuros retos que impliquen manipulación de archivos y entradas/salidas! 🚀
 
-- **Optimización y Rendimiento**
+---
 
-A lo largo del proyecto, me enfoqué en **optimizar el rendimiento** de la función para minimizar el uso de memoria y 
-mejorarla eficiencia de la lectura de archivos. Aprendí a usar técnicas como la lectura incremental y el almacenamiento
-dinámico de las líneas, lo que me permitió manejar archivos de tamaño variable de manera efectiva.
-
-**El resultado final**
-El resultado final fue una **función get_next_line** que es capaz de leer archivos de forma eficiente y devolver una línea
-completa cada vez que se llama. El proyecto consolidó mi comprensión de la lectura de archivos, la gestión de búferes
-y la memoria dinámica, y me proporcionó herramientas que puedo aplicar en futuros proyectos que impliquen la 
-manipulación de archivos y entradas/salidas.
+## 📚 **Recursos útiles**
+- [Documentación de read()](https://man7.org/linux/man-pages/man2/read.2.html)
+- [Gestión de memoria en C](https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm)
